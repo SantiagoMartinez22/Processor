@@ -18,13 +18,14 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter:2.5.5' // O la versión que estés utilizando
+	implementation 'org.springframework.boot:spring-boot-starter:2.5.5'
 	implementation 'org.springframework.boot:spring-boot-starter-web:2.5.5'
 	testImplementation 'org.springframework.boot:spring-boot-test:2.5.5'
 	testImplementation 'org.springframework.boot:spring-boot-test:2.5.5'
 	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.0'
-	implementation 'org.apache.commons:commons-csv:1.10.0' // Asegúrate de usar la última versión disponible
-
+	implementation 'org.apache.commons:commons-csv:1.10.0'
+	implementation 'org.apache.poi:poi:5.0.0'
+	implementation 'org.apache.poi:poi-ooxml:5.0.0'
 
 }
 
